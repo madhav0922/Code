@@ -60,6 +60,10 @@ public class RotateListByK {
 
         Node result = rotateListByK(head, 2);
         printList(result);
+
+        Node result2 = rotateListByK(head2, 2);
+        printList(result2);
+
     }
 
 }
