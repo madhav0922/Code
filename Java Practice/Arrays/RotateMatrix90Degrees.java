@@ -20,6 +20,17 @@ public class RotateMatrix90Degrees {
 
     static void rotateMatrix90DegreesRight(List<List<Integer>> listOflists) {
         int m = listOflists.size(), n = listOflists.get(0).size();
+
+        // for(int i = 0 ; i <= row/2 ; i++) {
+        // for(int j = i; j < col - i ; j++) {
+        // int temp = matrix[i][j];
+        // matrix[i][j] = matrix[row-j][i];
+        // matrix[row-j][i] = matrix[row-i][col-j];
+        // matrix[row-i][col-j] = matrix[j][row-i];
+        // matrix[j][row-i] = temp;
+        // }
+        // }
+
         for (int i = 0; i < m / 2; i++) {
             for (int j = i; j < n - 1 - i; j++) {
                 int temp = listOflists.get(i).get(j);

@@ -4,6 +4,7 @@ import java.util.*;
 
 public class PartitionPointInArray {
     public static void main(String[] args) {
+
         int[] a = { 1, 1, 5, 4, 3, 6, 9, 9, 9, 7, 8, 10 }, GEL = a.clone(); // SER = a.clone();
         for (int i = 1; i < GEL.length; i++) {
             if (GEL[i] < GEL[i - 1]) {
