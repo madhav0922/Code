@@ -13,7 +13,7 @@ public class amazon3StackChem {
         while (i < chemFormula.length()) {
             countToAdd = 1;
             formulaStack.add(chemFormula.charAt(i));
-            if (Character.isAlphabetic(chemFormula.charAt(i))) { 
+            if (Character.isAlphabetic(chemFormula.charAt(i))) {
                 atomCount.put(chemFormula.charAt(i), 0);
             }
             if (chemFormula.charAt(i) == ')') {
@@ -22,7 +22,7 @@ public class amazon3StackChem {
                 formulaStack.pop();
                 while (formulaStack.peek() != '(') {
                     Character popAtom = formulaStack.pop();
-                    System.out.println(popAtom + " m " + mulFact);
+                    // System.out.println(popAtom + " m " + mulFact);
                     if (Character.isDigit(popAtom)) {
                         Character prevPopAtom = formulaStack.pop();
                         atomCount.put(prevPopAtom,
@@ -39,7 +39,7 @@ public class amazon3StackChem {
                 }
                 formulaStack.pop();
             }
-            System.out.println(atomCount);
+            // System.out.println(atomCount);
             i++;
         }
 
@@ -66,7 +66,7 @@ public class amazon3StackChem {
     }
 
     public static void main(String[] args) {
-        String chemFormula = "K4(ON(SO3)2)2";
+        String chemFormula = "K4(ON(SO3)2)4";
         calculateAtomsInChemFormula(chemFormula);
     }
 }

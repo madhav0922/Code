@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch CheckPallindrome",
+            "request": "launch",
+            "mainClass": "Linked_Lists.CheckPallindrome",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingletonMain",
+            "request": "launch",
+            "mainClass": "Singleton.SingletonMain",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Singleton",
+            "request": "launch",
+            "mainClass": "Singleton",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "name": "C/C++: g++-11 build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: g++-11 build active file"
+        }
+    ],
+    "version": "2.0.0"
+}
