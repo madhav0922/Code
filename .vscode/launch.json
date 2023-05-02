@@ -2,6 +2,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Behavioral_Design_Patterns.Observer_Pattern.Main",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Structural_Design_Patterns.Decorator_Pattern.Main",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Behavioral_Design_Patterns.Chain_Of_Responsiblity_Pattern.Client.Main",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Employee",
+            "request": "launch",
+            "mainClass": "Structural_Design_Patterns.Proxy_Pattern.Client.Employee",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Structural_Design_Patterns.Facade_Pattern.Client.Main",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Structural_Design_Patterns.Adapter_Pattern.Client.Main",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Creational_Design_Patterns.Builder_Pattern.Main",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Creational_Design_Patterns.Factory_Pattern.Main",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch SolidKaD",
+            "request": "launch",
+            "mainClass": "Design_Principles.SOLID.SolidKaD",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Male",
+            "request": "launch",
+            "mainClass": "Inheritance.gender.Male",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
             "name": "Launch CheckPallindrome",
             "request": "launch",
             "mainClass": "Linked_Lists.CheckPallindrome",
