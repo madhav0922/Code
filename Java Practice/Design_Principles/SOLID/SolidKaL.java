@@ -5,6 +5,8 @@ package Design_Principles.SOLID;
  * SubType must be substituable for their BaseType
  * In simple words, Child should be substitutable for their Parent
  * Bina wajah inheritance nahii karni.
+ * Kyun? Kyunki inhertance is strong coupling.. blood relation.
+ * For Loose coupling we need something like association -> aggregation (loose coupling) and not composition (strong coupling)
  */
 
 abstract class Square {
