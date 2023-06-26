@@ -8,7 +8,7 @@ package Design_Principles.SOLID;
 final class ShapeOld {
     public static void calculateArea(Object[] shapes) {
         // double area = 0;
-        for (var shape : shapes) {
+        for (Object shape : shapes) {
             if (shape == RectangleNew.class) {
                 // area = area of rectangle function
             } else {

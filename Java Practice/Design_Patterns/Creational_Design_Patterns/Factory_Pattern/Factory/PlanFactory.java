@@ -14,7 +14,8 @@ public class PlanFactory {
     public Plan getPlan(String planName) {
         if (planName == new CommercialPlan().getPlanName()) {
             return new CommercialPlan();
-        } else {
+        } else { // dont use else, otherwise for all other plans this plan would become default.
+                 // Ofcourse if default requires we could call this way.
             return new PersonalPlan();
         }
     }

@@ -2,6 +2,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DomParserDemo",
+            "request": "launch",
+            "mainClass": "Office.DomParserDemo",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Design_Patterns.Creational_Design_Patterns.Factory.Main",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "SingletonImplementation",
+            "request": "launch",
+            "mainClass": "Design_Patterns.Creational_Design_Patterns.Singleton.SingletonImplementation",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "SingletonImplementation",
+            "request": "launch",
+            "mainClass": "Creational_Design_Patterns.Singleton.SingletonImplementation",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Singleton",
+            "request": "launch",
+            "mainClass": "Creational_Design_Patterns.Singleton.Singleton",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "SingletonMain",
+            "request": "launch",
+            "mainClass": "Creational_Design_Patterns.Singleton.SingletonMain",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "SingletonMain",
+            "request": "launch",
+            "mainClass": "Design_Patterns.Creational_Design_Patterns.Singleton.SingletonMain",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
+            "name": "Singleton",
+            "request": "launch",
+            "mainClass": "Design_Patterns.Creational_Design_Patterns.Singleton.Singleton",
+            "projectName": "Code_29d5e7c6"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Behavioral_Design_Patterns.Observer_Pattern.Main",

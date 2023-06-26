@@ -69,7 +69,7 @@ public class SingletonMain extends Thread {
 
         SingletonMain t1 = new SingletonMain();
         SingletonMain t2 = new SingletonMain();
-        t1.start();
+        t1.start(); // extends Thread necessary for this function to be visible
         t2.start();
     }
 
